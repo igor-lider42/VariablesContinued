@@ -14,14 +14,14 @@ public class Main {
      double Pai = 3.14159;
         System.out.println("Значение переменной Pai с типом double равно " + Pai);
 
-        byte h = 67;
-        short f = -159;
-        int g = 27897;
-        long b = 987678965549L;
-        float a = 27.12F;
-        double c = 2.786;
-        char e = 569;
-        boolean d = c>3;
+        byte one=67;
+        short two=-159;
+        int three=27897;
+        long four=987678965549L;
+        float five=27.12F;
+        double six=2.786;
+        char seven=569;
+        boolean eight=seven>3;
 
         short totalSheets=480;
         byte classLudmila=23;
@@ -77,6 +77,7 @@ public class Main {
         float differenceUnAnnualIncomeMasha=newSalaryMashaYear-oldSalaryMashaYear;
         System.out.println("Маша теперь получает "+newSalaryMasha+" рублей. "+ "Годовой доход вырос на "
                 +differenceUnAnnualIncomeMasha+" рублей.");
+
         int oldSalaryDenis=83690;
         float newSalaryDenis=oldSalaryDenis*1.1F;
         int oldSalaryDenisYear=oldSalaryDenis*12;
@@ -84,6 +85,7 @@ public class Main {
         float differenceUnAnnualIncomeDenis=newSalaryDenisYear-oldSalaryDenisYear;
         System.out.println("Денис теперь получает "+newSalaryDenis+" рублей. "+ "Годовой доход вырос на "
                 +differenceUnAnnualIncomeDenis+" рублей.");
+
         int oldSalaryKristina=76230;
         float newSalaryKristina=oldSalaryKristina*1.1F;
         int oldSalaryKristinaYear=oldSalaryKristina*12;
